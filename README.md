@@ -1,8 +1,3 @@
-# TITANIUM V10: CIVILIZATIONAL ANCHOR
-**Copyright © 2026 Mark Jeremiah Aubrey. All Rights Reserved.**
-
-This repository contains the logic for the Diamond Bridge v2.
-Current Status: PRE-DEPLOYMENT
 /*
  * Copyright (c) 2026 Mark Jeremiah Aubrey
  * All Rights Reserved.
@@ -16,7 +11,7 @@ function runSimulation() {
     const DATASET = 10000;
     const binaryDepth = Math.ceil(Math.log2(DATASET)); // N=2
     const quadDepth = Math.ceil(Math.log(DATASET) / Math.log(4)); // N=4 (Helios)
-
+    
     console.log(`Dataset Size: ${DATASET} leaves`);
     console.log(`Standard Binary Depth: ${binaryDepth}`);
     console.log(`Helios Quadratic Depth: ${quadDepth}`);
@@ -24,4 +19,3 @@ function runSimulation() {
 }
 
 runSimulation();
-
